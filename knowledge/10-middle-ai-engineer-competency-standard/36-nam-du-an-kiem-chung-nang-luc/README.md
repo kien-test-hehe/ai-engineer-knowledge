@@ -1,0 +1,18 @@
+---
+roadmap_module: 36
+content_status: scaffold
+mastery: unassessed
+target_minimum: L2
+target_practical: L3
+---
+# 36. Năm dự án kiểm chứng năng lực
+
+## Nội dung
+
+_Chưa có ghi chú đã duyệt. Các tiêu chí/định hướng nằm trong roadmap gốc._
+
+## Notebook
+
+[Xem notebook registry](notebooks/README.md)
+
+Nguồn: [Roadmap](../../../curriculum/ROADMAP_SOURCE.md).

@@ -1,0 +1,22 @@
+# Local environment and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+# Large model artifacts & datasets should be handled outside Git
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.onnx
+datasets/
+outputs/
+runs/

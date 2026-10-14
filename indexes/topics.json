@@ -1,0 +1,1761 @@
+{
+  "roadmap": "AI ENGINEER ROADMAP 2026",
+  "source_date": "2026-10-13",
+  "part_count": 10,
+  "module_count": 37,
+  "topic_count": 219,
+  "topics": [
+    {
+      "id": "1.1",
+      "title": "Linear Algebra",
+      "module": 1,
+      "part": 1,
+      "path": "knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-01-linear-algebra",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "1.2",
+      "title": "Calculus & Multivariable Calculus",
+      "module": 1,
+      "part": 1,
+      "path": "knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-02-calculus-and-multivariable-calculus",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "1.3",
+      "title": "Probability Theory",
+      "module": 1,
+      "part": 1,
+      "path": "knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-03-probability-theory",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "1.4",
+      "title": "Statistics",
+      "module": 1,
+      "part": 1,
+      "path": "knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-04-statistics",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "1.5",
+      "title": "Optimization Theory",
+      "module": 1,
+      "part": 1,
+      "path": "knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-05-optimization-theory",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "1.6",
+      "title": "Numerical Computing",
+      "module": 1,
+      "part": 1,
+      "path": "knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-06-numerical-computing",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "2.1",
+      "title": "Python Engineering",
+      "module": 2,
+      "part": 1,
+      "path": "knowledge/01-foundations/02-programming-and-computer-science-fundamentals/02-01-python-engineering",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "2.2",
+      "title": "Data Structures & Algorithms",
+      "module": 2,
+      "part": 1,
+      "path": "knowledge/01-foundations/02-programming-and-computer-science-fundamentals/02-02-data-structures-and-algorithms",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "2.3",
+      "title": "Software Engineering",
+      "module": 2,
+      "part": 1,
+      "path": "knowledge/01-foundations/02-programming-and-computer-science-fundamentals/02-03-software-engineering",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "2.4",
+      "title": "Testing & Quality Assurance",
+      "module": 2,
+      "part": 1,
+      "path": "knowledge/01-foundations/02-programming-and-computer-science-fundamentals/02-04-testing-and-quality-assurance",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "2.5",
+      "title": "Git & Collaboration",
+      "module": 2,
+      "part": 1,
+      "path": "knowledge/01-foundations/02-programming-and-computer-science-fundamentals/02-05-git-and-collaboration",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "2.6",
+      "title": "Operating Systems & Linux",
+      "module": 2,
+      "part": 1,
+      "path": "knowledge/01-foundations/02-programming-and-computer-science-fundamentals/02-06-operating-systems-and-linux",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "2.7",
+      "title": "Networking Fundamentals",
+      "module": 2,
+      "part": 1,
+      "path": "knowledge/01-foundations/02-programming-and-computer-science-fundamentals/02-07-networking-fundamentals",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "3.1",
+      "title": "Data Manipulation",
+      "module": 3,
+      "part": 1,
+      "path": "knowledge/01-foundations/03-data-engineering-and-data-foundations/03-01-data-manipulation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "3.2",
+      "title": "SQL & Databases",
+      "module": 3,
+      "part": 1,
+      "path": "knowledge/01-foundations/03-data-engineering-and-data-foundations/03-02-sql-and-databases",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "3.3",
+      "title": "Data Storage",
+      "module": 3,
+      "part": 1,
+      "path": "knowledge/01-foundations/03-data-engineering-and-data-foundations/03-03-data-storage",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "3.4",
+      "title": "ETL / ELT Pipelines",
+      "module": 3,
+      "part": 1,
+      "path": "knowledge/01-foundations/03-data-engineering-and-data-foundations/03-04-etl-elt-pipelines",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "3.5",
+      "title": "Data Quality & Governance",
+      "module": 3,
+      "part": 1,
+      "path": "knowledge/01-foundations/03-data-engineering-and-data-foundations/03-05-data-quality-and-governance",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "3.6",
+      "title": "Data Annotation & Dataset Construction",
+      "module": 3,
+      "part": 1,
+      "path": "knowledge/01-foundations/03-data-engineering-and-data-foundations/03-06-data-annotation-and-dataset-construction",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "4.1",
+      "title": "ML Paradigms",
+      "module": 4,
+      "part": 1,
+      "path": "knowledge/01-foundations/04-traditional-machine-learning/04-01-ml-paradigms",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "4.2",
+      "title": "Regression Algorithms",
+      "module": 4,
+      "part": 1,
+      "path": "knowledge/01-foundations/04-traditional-machine-learning/04-02-regression-algorithms",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "4.3",
+      "title": "Classification Algorithms",
+      "module": 4,
+      "part": 1,
+      "path": "knowledge/01-foundations/04-traditional-machine-learning/04-03-classification-algorithms",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "4.4",
+      "title": "Unsupervised Learning",
+      "module": 4,
+      "part": 1,
+      "path": "knowledge/01-foundations/04-traditional-machine-learning/04-04-unsupervised-learning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "4.5",
+      "title": "Feature Engineering",
+      "module": 4,
+      "part": 1,
+      "path": "knowledge/01-foundations/04-traditional-machine-learning/04-05-feature-engineering",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "4.6",
+      "title": "Model Evaluation",
+      "module": 4,
+      "part": 1,
+      "path": "knowledge/01-foundations/04-traditional-machine-learning/04-06-model-evaluation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "4.7",
+      "title": "Hyperparameter Optimization",
+      "module": 4,
+      "part": 1,
+      "path": "knowledge/01-foundations/04-traditional-machine-learning/04-07-hyperparameter-optimization",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "4.8",
+      "title": "ML Interpretability",
+      "module": 4,
+      "part": 1,
+      "path": "knowledge/01-foundations/04-traditional-machine-learning/04-08-ml-interpretability",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "5.1",
+      "title": "Neural Network Basics",
+      "module": 5,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/05-deep-learning-fundamentals/05-01-neural-network-basics",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "5.2",
+      "title": "Loss Functions",
+      "module": 5,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/05-deep-learning-fundamentals/05-02-loss-functions",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "5.3",
+      "title": "Training Mechanics",
+      "module": 5,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/05-deep-learning-fundamentals/05-03-training-mechanics",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "5.4",
+      "title": "Regularization & Normalization",
+      "module": 5,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/05-deep-learning-fundamentals/05-04-regularization-and-normalization",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "5.5",
+      "title": "PyTorch Ecosystem",
+      "module": 5,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/05-deep-learning-fundamentals/05-05-pytorch-ecosystem",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "5.6",
+      "title": "Debugging Deep Learning",
+      "module": 5,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/05-deep-learning-fundamentals/05-06-debugging-deep-learning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "6.1",
+      "title": "Convolutional Neural Networks",
+      "module": 6,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/06-deep-learning-architectures/06-01-convolutional-neural-networks",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "6.2",
+      "title": "CNN Architectures",
+      "module": 6,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/06-deep-learning-architectures/06-02-cnn-architectures",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "6.3",
+      "title": "Recurrent Neural Networks",
+      "module": 6,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/06-deep-learning-architectures/06-03-recurrent-neural-networks",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "6.4",
+      "title": "Attention Mechanisms",
+      "module": 6,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/06-deep-learning-architectures/06-04-attention-mechanisms",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "6.5",
+      "title": "Transformer Architecture",
+      "module": 6,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/06-deep-learning-architectures/06-05-transformer-architecture",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "6.6",
+      "title": "Representation Learning",
+      "module": 6,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/06-deep-learning-architectures/06-06-representation-learning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "6.7",
+      "title": "Generative Architectures",
+      "module": 6,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/06-deep-learning-architectures/06-07-generative-architectures",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "7.1",
+      "title": "Image Processing",
+      "module": 7,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/07-computer-vision-engineering/07-01-image-processing",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "7.2",
+      "title": "Image Classification",
+      "module": 7,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/07-computer-vision-engineering/07-02-image-classification",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "7.3",
+      "title": "Object Detection",
+      "module": 7,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/07-computer-vision-engineering/07-03-object-detection",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "7.4",
+      "title": "Segmentation",
+      "module": 7,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/07-computer-vision-engineering/07-04-segmentation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "7.5",
+      "title": "Vision Transformers & Multimodal Vision",
+      "module": 7,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/07-computer-vision-engineering/07-05-vision-transformers-and-multimodal-vision",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "7.6",
+      "title": "Advanced Computer Vision",
+      "module": 7,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/07-computer-vision-engineering/07-06-advanced-computer-vision",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "8.1",
+      "title": "Traditional NLP",
+      "module": 8,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/08-nlp-speech-and-sequential-data/08-01-traditional-nlp",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "8.2",
+      "title": "Semantic Representations",
+      "module": 8,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/08-nlp-speech-and-sequential-data/08-02-semantic-representations",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "8.3",
+      "title": "Modern NLP Tasks",
+      "module": 8,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/08-nlp-speech-and-sequential-data/08-03-modern-nlp-tasks",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "8.4",
+      "title": "Speech AI",
+      "module": 8,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/08-nlp-speech-and-sequential-data/08-04-speech-ai",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "8.5",
+      "title": "Time-Series Modeling",
+      "module": 8,
+      "part": 2,
+      "path": "knowledge/02-deep-learning-and-model-architectures/08-nlp-speech-and-sequential-data/08-05-time-series-modeling",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "9.1",
+      "title": "LLM Architecture",
+      "module": 9,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/09-large-language-model-fundamentals/09-01-llm-architecture",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "9.2",
+      "title": "Tokenization",
+      "module": 9,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/09-large-language-model-fundamentals/09-02-tokenization",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "9.3",
+      "title": "LLM Pretraining",
+      "module": 9,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/09-large-language-model-fundamentals/09-03-llm-pretraining",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "9.4",
+      "title": "Inference & Text Generation",
+      "module": 9,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/09-large-language-model-fundamentals/09-04-inference-and-text-generation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "9.5",
+      "title": "Reasoning Models",
+      "module": 9,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/09-large-language-model-fundamentals/09-05-reasoning-models",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "9.6",
+      "title": "LLM Model Families & Architectures",
+      "module": 9,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/09-large-language-model-fundamentals/09-06-llm-model-families-and-architectures",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "9.7",
+      "title": "LLM Failure Modes",
+      "module": 9,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/09-large-language-model-fundamentals/09-07-llm-failure-modes",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "10.1",
+      "title": "Prompt Fundamentals",
+      "module": 10,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/10-prompt-engineering-and-context-engineering/10-01-prompt-fundamentals",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "10.2",
+      "title": "Advanced Prompting",
+      "module": 10,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/10-prompt-engineering-and-context-engineering/10-02-advanced-prompting",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "10.3",
+      "title": "Structured Outputs",
+      "module": 10,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/10-prompt-engineering-and-context-engineering/10-03-structured-outputs",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "10.4",
+      "title": "Context Window Management",
+      "module": 10,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/10-prompt-engineering-and-context-engineering/10-04-context-window-management",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "10.5",
+      "title": "Context Engineering",
+      "module": 10,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/10-prompt-engineering-and-context-engineering/10-05-context-engineering",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "10.6",
+      "title": "Prompt Optimization",
+      "module": 10,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/10-prompt-engineering-and-context-engineering/10-06-prompt-optimization",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "11.1",
+      "title": "Information Retrieval Foundations",
+      "module": 11,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/11-embeddings-search-and-retrieval-augmented-generation/11-01-information-retrieval-foundations",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "11.2",
+      "title": "Embedding Models",
+      "module": 11,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/11-embeddings-search-and-retrieval-augmented-generation/11-02-embedding-models",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "11.3",
+      "title": "Vector Databases",
+      "module": 11,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/11-embeddings-search-and-retrieval-augmented-generation/11-03-vector-databases",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "11.4",
+      "title": "Document Ingestion",
+      "module": 11,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/11-embeddings-search-and-retrieval-augmented-generation/11-04-document-ingestion",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "11.5",
+      "title": "Chunking Strategies",
+      "module": 11,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/11-embeddings-search-and-retrieval-augmented-generation/11-05-chunking-strategies",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "11.6",
+      "title": "RAG Pipeline Architecture",
+      "module": 11,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/11-embeddings-search-and-retrieval-augmented-generation/11-06-rag-pipeline-architecture",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "11.7",
+      "title": "Advanced RAG",
+      "module": 11,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/11-embeddings-search-and-retrieval-augmented-generation/11-07-advanced-rag",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "11.8",
+      "title": "RAG Evaluation & Debugging",
+      "module": 11,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/11-embeddings-search-and-retrieval-augmented-generation/11-08-rag-evaluation-and-debugging",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "11.9",
+      "title": "Production RAG",
+      "module": 11,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/11-embeddings-search-and-retrieval-augmented-generation/11-09-production-rag",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.1",
+      "title": "Agent Fundamentals",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-01-agent-fundamentals",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.2",
+      "title": "Agent Workflow Patterns",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-02-agent-workflow-patterns",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.3",
+      "title": "Tool Calling",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-03-tool-calling",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.4",
+      "title": "Agent State & Memory",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-04-agent-state-and-memory",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.5",
+      "title": "Human-in-the-Loop",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-05-human-in-the-loop",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.6",
+      "title": "Multi-Agent Systems",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-06-multi-agent-systems",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.7",
+      "title": "Agent Frameworks",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-07-agent-frameworks",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.8",
+      "title": "Model Context Protocol (MCP)",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-08-model-context-protocol-mcp",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.9",
+      "title": "Agent-to-Agent Protocol (A2A)",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-09-agent-to-agent-protocol-a2a",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.10",
+      "title": "Agent Runtime & Execution",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-10-agent-runtime-and-execution",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.11",
+      "title": "Agent Reliability",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-11-agent-reliability",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.12",
+      "title": "Agent Evaluation",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-12-agent-evaluation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "12.13",
+      "title": "Advanced Agent Systems",
+      "module": 12,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/12-ai-agents-and-agentic-workflows/12-13-advanced-agent-systems",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "13.1",
+      "title": "Evaluation Fundamentals",
+      "module": 13,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/13-llm-evaluation-testing-and-observability/13-01-evaluation-fundamentals",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "13.2",
+      "title": "Classical NLP/LLM Metrics",
+      "module": 13,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/13-llm-evaluation-testing-and-observability/13-02-classical-nlp-llm-metrics",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "13.3",
+      "title": "LLM-as-a-Judge",
+      "module": 13,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/13-llm-evaluation-testing-and-observability/13-03-llm-as-a-judge",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "13.4",
+      "title": "RAG & Agent Evaluation",
+      "module": 13,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/13-llm-evaluation-testing-and-observability/13-04-rag-and-agent-evaluation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "13.5",
+      "title": "Robustness & Red Team Testing",
+      "module": 13,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/13-llm-evaluation-testing-and-observability/13-05-robustness-and-red-team-testing",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "13.6",
+      "title": "Experimentation & Regression",
+      "module": 13,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/13-llm-evaluation-testing-and-observability/13-06-experimentation-and-regression",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "13.7",
+      "title": "Observability",
+      "module": 13,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/13-llm-evaluation-testing-and-observability/13-07-observability",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "13.8",
+      "title": "Production AI Metrics",
+      "module": 13,
+      "part": 3,
+      "path": "knowledge/03-generative-ai-and-llm-engineering/13-llm-evaluation-testing-and-observability/13-08-production-ai-metrics",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "14.1",
+      "title": "Transfer Learning",
+      "module": 14,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/14-fine-tuning-and-post-training/14-01-transfer-learning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "14.2",
+      "title": "Supervised Fine-Tuning (SFT)",
+      "module": 14,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/14-fine-tuning-and-post-training/14-02-supervised-fine-tuning-sft",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "14.3",
+      "title": "Parameter-Efficient Fine-Tuning (PEFT)",
+      "module": 14,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/14-fine-tuning-and-post-training/14-03-parameter-efficient-fine-tuning-peft",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "14.4",
+      "title": "Preference Optimization",
+      "module": 14,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/14-fine-tuning-and-post-training/14-04-preference-optimization",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "14.5",
+      "title": "Reinforcement Learning for LLMs",
+      "module": 14,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/14-fine-tuning-and-post-training/14-05-reinforcement-learning-for-llms",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "14.6",
+      "title": "Distillation",
+      "module": 14,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/14-fine-tuning-and-post-training/14-06-distillation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "14.7",
+      "title": "Efficient Fine-Tuning",
+      "module": 14,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/14-fine-tuning-and-post-training/14-07-efficient-fine-tuning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "14.8",
+      "title": "Fine-Tuning Decision Making",
+      "module": 14,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/14-fine-tuning-and-post-training/14-08-fine-tuning-decision-making",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.1",
+      "title": "Inference Fundamentals",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-01-inference-fundamentals",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.2",
+      "title": "GPU Memory Management",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-02-gpu-memory-management",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.3",
+      "title": "Attention Optimization",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-03-attention-optimization",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.4",
+      "title": "Batching & Scheduling",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-04-batching-and-scheduling",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.5",
+      "title": "Speculative Decoding",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-05-speculative-decoding",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.6",
+      "title": "Long-Context Inference",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-06-long-context-inference",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.7",
+      "title": "Production Serving Engines",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-07-production-serving-engines",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.8",
+      "title": "Serving Performance Metrics",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-08-serving-performance-metrics",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.9",
+      "title": "Advanced Serving Architectures",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-09-advanced-serving-architectures",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "15.10",
+      "title": "Disaggregated Serving",
+      "module": 15,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/15-llm-inference-engineering-and-model-serving/15-10-disaggregated-serving",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "16.1",
+      "title": "Numerical Representations",
+      "module": 16,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/16-quantization-and-model-compression/16-01-numerical-representations",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "16.2",
+      "title": "Quantization Mathematics",
+      "module": 16,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/16-quantization-and-model-compression/16-02-quantization-mathematics",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "16.3",
+      "title": "Quantization Techniques",
+      "module": 16,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/16-quantization-and-model-compression/16-03-quantization-techniques",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "16.4",
+      "title": "LLM Quantization Algorithms",
+      "module": 16,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/16-quantization-and-model-compression/16-04-llm-quantization-algorithms",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "16.5",
+      "title": "FP8 / FP4 Inference",
+      "module": 16,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/16-quantization-and-model-compression/16-05-fp8-fp4-inference",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "16.6",
+      "title": "Calibration",
+      "module": 16,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/16-quantization-and-model-compression/16-06-calibration",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "16.7",
+      "title": "Model Compression",
+      "module": 16,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/16-quantization-and-model-compression/16-07-model-compression",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "16.8",
+      "title": "Quantization Evaluation",
+      "module": 16,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/16-quantization-and-model-compression/16-08-quantization-evaluation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "16.9",
+      "title": "Quantization Deployment",
+      "module": 16,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/16-quantization-and-model-compression/16-09-quantization-deployment",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "17.1",
+      "title": "GPU Architecture",
+      "module": 17,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/17-gpu-computing-cuda-and-hardware-aware-ai/17-01-gpu-architecture",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "17.2",
+      "title": "Parallel Programming",
+      "module": 17,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/17-gpu-computing-cuda-and-hardware-aware-ai/17-02-parallel-programming",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "17.3",
+      "title": "CUDA Fundamentals",
+      "module": 17,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/17-gpu-computing-cuda-and-hardware-aware-ai/17-03-cuda-fundamentals",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "17.4",
+      "title": "High-Performance AI Kernels",
+      "module": 17,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/17-gpu-computing-cuda-and-hardware-aware-ai/17-04-high-performance-ai-kernels",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "17.5",
+      "title": "Performance Profiling",
+      "module": 17,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/17-gpu-computing-cuda-and-hardware-aware-ai/17-05-performance-profiling",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "17.6",
+      "title": "CPU & Heterogeneous Inference",
+      "module": 17,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/17-gpu-computing-cuda-and-hardware-aware-ai/17-06-cpu-and-heterogeneous-inference",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "18.1",
+      "title": "Distributed Computing Basics",
+      "module": 18,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/18-distributed-training-and-large-scale-ai/18-01-distributed-computing-basics",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "18.2",
+      "title": "Distributed Training Strategies",
+      "module": 18,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/18-distributed-training-and-large-scale-ai/18-02-distributed-training-strategies",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "18.3",
+      "title": "Memory-Efficient Distributed Training",
+      "module": 18,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/18-distributed-training-and-large-scale-ai/18-03-memory-efficient-distributed-training",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "18.4",
+      "title": "Distributed Training Frameworks",
+      "module": 18,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/18-distributed-training-and-large-scale-ai/18-04-distributed-training-frameworks",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "18.5",
+      "title": "Large-Scale Training Challenges",
+      "module": 18,
+      "part": 4,
+      "path": "knowledge/04-model-training-fine-tuning-and-optimization/18-distributed-training-and-large-scale-ai/18-05-large-scale-training-challenges",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "19.1",
+      "title": "ML Lifecycle Management",
+      "module": 19,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/19-mlops-and-llmops/19-01-ml-lifecycle-management",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "19.2",
+      "title": "Experiment Tracking",
+      "module": 19,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/19-mlops-and-llmops/19-02-experiment-tracking",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "19.3",
+      "title": "Model Registry",
+      "module": 19,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/19-mlops-and-llmops/19-03-model-registry",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "19.4",
+      "title": "Data & Pipeline Versioning",
+      "module": 19,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/19-mlops-and-llmops/19-04-data-and-pipeline-versioning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "19.5",
+      "title": "Pipeline Orchestration",
+      "module": 19,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/19-mlops-and-llmops/19-05-pipeline-orchestration",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "19.6",
+      "title": "CI/CD/CT for AI",
+      "module": 19,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/19-mlops-and-llmops/19-06-ci-cd-ct-for-ai",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "19.7",
+      "title": "Monitoring & Drift",
+      "module": 19,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/19-mlops-and-llmops/19-07-monitoring-and-drift",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "19.8",
+      "title": "LLMOps-Specific Concerns",
+      "module": 19,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/19-mlops-and-llmops/19-08-llmops-specific-concerns",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "19.9",
+      "title": "Feature Stores",
+      "module": 19,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/19-mlops-and-llmops/19-09-feature-stores",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "20.1",
+      "title": "API Development",
+      "module": 20,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/20-backend-engineering-for-ai-applications/20-01-api-development",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "20.2",
+      "title": "Asynchronous AI Backends",
+      "module": 20,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/20-backend-engineering-for-ai-applications/20-02-asynchronous-ai-backends",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "20.3",
+      "title": "API Reliability",
+      "module": 20,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/20-backend-engineering-for-ai-applications/20-03-api-reliability",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "20.4",
+      "title": "Database Integration",
+      "module": 20,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/20-backend-engineering-for-ai-applications/20-04-database-integration",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "20.5",
+      "title": "Messaging & Queue Systems",
+      "module": 20,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/20-backend-engineering-for-ai-applications/20-05-messaging-and-queue-systems",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "20.6",
+      "title": "API Security",
+      "module": 20,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/20-backend-engineering-for-ai-applications/20-06-api-security",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "20.7",
+      "title": "AI-Specific Backend Design",
+      "module": 20,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/20-backend-engineering-for-ai-applications/20-07-ai-specific-backend-design",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "21.1",
+      "title": "Docker",
+      "module": 21,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/21-docker-kubernetes-and-infrastructure/21-01-docker",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "21.2",
+      "title": "Kubernetes",
+      "module": 21,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/21-docker-kubernetes-and-infrastructure/21-02-kubernetes",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "21.3",
+      "title": "Kubernetes for AI",
+      "module": 21,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/21-docker-kubernetes-and-infrastructure/21-03-kubernetes-for-ai",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "21.4",
+      "title": "Infrastructure as Code",
+      "module": 21,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/21-docker-kubernetes-and-infrastructure/21-04-infrastructure-as-code",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "21.5",
+      "title": "Storage & Networking",
+      "module": 21,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/21-docker-kubernetes-and-infrastructure/21-05-storage-and-networking",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "22.1",
+      "title": "Cloud Fundamentals",
+      "module": 22,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/22-cloud-ai-engineering/22-01-cloud-fundamentals",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "22.2",
+      "title": "AWS AI Stack",
+      "module": 22,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/22-cloud-ai-engineering/22-02-aws-ai-stack",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "22.3",
+      "title": "Google Cloud AI Stack",
+      "module": 22,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/22-cloud-ai-engineering/22-03-google-cloud-ai-stack",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "22.4",
+      "title": "Microsoft Azure AI Stack",
+      "module": 22,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/22-cloud-ai-engineering/22-04-microsoft-azure-ai-stack",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "22.5",
+      "title": "Cloud AI Deployment Strategies",
+      "module": 22,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/22-cloud-ai-engineering/22-05-cloud-ai-deployment-strategies",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "22.6",
+      "title": "Cloud Cost Optimization",
+      "module": 22,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/22-cloud-ai-engineering/22-06-cloud-cost-optimization",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "23.1",
+      "title": "System Design Fundamentals",
+      "module": 23,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/23-production-architecture-and-ai-system-design/23-01-system-design-fundamentals",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "23.2",
+      "title": "AI Application Architectures",
+      "module": 23,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/23-production-architecture-and-ai-system-design/23-02-ai-application-architectures",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "23.3",
+      "title": "Model Serving Architecture",
+      "module": 23,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/23-production-architecture-and-ai-system-design/23-03-model-serving-architecture",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "23.4",
+      "title": "Model Routing & Cascades",
+      "module": 23,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/23-production-architecture-and-ai-system-design/23-04-model-routing-and-cascades",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "23.5",
+      "title": "Caching Strategies",
+      "module": 23,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/23-production-architecture-and-ai-system-design/23-05-caching-strategies",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "23.6",
+      "title": "Scalability & High Availability",
+      "module": 23,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/23-production-architecture-and-ai-system-design/23-06-scalability-and-high-availability",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "23.7",
+      "title": "Capacity Planning",
+      "module": 23,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/23-production-architecture-and-ai-system-design/23-07-capacity-planning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "23.8",
+      "title": "Performance Engineering",
+      "module": 23,
+      "part": 5,
+      "path": "knowledge/05-production-ai-mlops-and-infrastructure/23-production-architecture-and-ai-system-design/23-08-performance-engineering",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "24.1",
+      "title": "General Application Security",
+      "module": 24,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/24-ai-security-and-threat-modeling/24-01-general-application-security",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "24.2",
+      "title": "LLM-Specific Security",
+      "module": 24,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/24-ai-security-and-threat-modeling/24-02-llm-specific-security",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "24.3",
+      "title": "RAG Security",
+      "module": 24,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/24-ai-security-and-threat-modeling/24-03-rag-security",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "24.4",
+      "title": "Agent Security",
+      "module": 24,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/24-ai-security-and-threat-modeling/24-04-agent-security",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "24.5",
+      "title": "MCP Security",
+      "module": 24,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/24-ai-security-and-threat-modeling/24-05-mcp-security",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "24.6",
+      "title": "Secure Agent Runtime",
+      "module": 24,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/24-ai-security-and-threat-modeling/24-06-secure-agent-runtime",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "24.7",
+      "title": "AI Red Teaming",
+      "module": 24,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/24-ai-security-and-threat-modeling/24-07-ai-red-teaming",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "25.1",
+      "title": "Responsible AI Principles",
+      "module": 25,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/25-responsible-ai-privacy-and-compliance/25-01-responsible-ai-principles",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "25.2",
+      "title": "Privacy Engineering",
+      "module": 25,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/25-responsible-ai-privacy-and-compliance/25-02-privacy-engineering",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "25.3",
+      "title": "AI Governance",
+      "module": 25,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/25-responsible-ai-privacy-and-compliance/25-03-ai-governance",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "25.4",
+      "title": "Regulatory Awareness",
+      "module": 25,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/25-responsible-ai-privacy-and-compliance/25-04-regulatory-awareness",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "25.5",
+      "title": "Fairness & Bias Evaluation",
+      "module": 25,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/25-responsible-ai-privacy-and-compliance/25-05-fairness-and-bias-evaluation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "25.6",
+      "title": "Risk Management Frameworks",
+      "module": 25,
+      "part": 6,
+      "path": "knowledge/06-ai-security-safety-and-governance/25-responsible-ai-privacy-and-compliance/25-06-risk-management-frameworks",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "26.1",
+      "title": "Multimodal Foundations",
+      "module": 26,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/26-multimodal-ai-and-generative-media/26-01-multimodal-foundations",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "26.2",
+      "title": "Vision-Language Models",
+      "module": 26,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/26-multimodal-ai-and-generative-media/26-02-vision-language-models",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "26.3",
+      "title": "Image Generation",
+      "module": 26,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/26-multimodal-ai-and-generative-media/26-03-image-generation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "26.4",
+      "title": "Video Generation",
+      "module": 26,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/26-multimodal-ai-and-generative-media/26-04-video-generation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "26.5",
+      "title": "Advanced Audio Generation",
+      "module": 26,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/26-multimodal-ai-and-generative-media/26-05-advanced-audio-generation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "26.6",
+      "title": "Real-Time Multimodal AI",
+      "module": 26,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/26-multimodal-ai-and-generative-media/26-06-real-time-multimodal-ai",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "26.7",
+      "title": "Generative Media Pipelines",
+      "module": 26,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/26-multimodal-ai-and-generative-media/26-07-generative-media-pipelines",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "27.1",
+      "title": "Recommendation Systems",
+      "module": 27,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/27-recommender-systems-graph-ml-and-causal-ai/27-01-recommendation-systems",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "27.2",
+      "title": "Recommendation Evaluation",
+      "module": 27,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/27-recommender-systems-graph-ml-and-causal-ai/27-02-recommendation-evaluation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "27.3",
+      "title": "Graph Machine Learning",
+      "module": 27,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/27-recommender-systems-graph-ml-and-causal-ai/27-03-graph-machine-learning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "27.4",
+      "title": "Graph Engineering",
+      "module": 27,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/27-recommender-systems-graph-ml-and-causal-ai/27-04-graph-engineering",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "27.5",
+      "title": "Causal Inference",
+      "module": 27,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/27-recommender-systems-graph-ml-and-causal-ai/27-05-causal-inference",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "27.6",
+      "title": "Decision Intelligence",
+      "module": 27,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/27-recommender-systems-graph-ml-and-causal-ai/27-06-decision-intelligence",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "28.1",
+      "title": "Edge AI Fundamentals",
+      "module": 28,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/28-edge-ai-on-device-ai-and-efficient-deployment/28-01-edge-ai-fundamentals",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "28.2",
+      "title": "Model Export & Interoperability",
+      "module": 28,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/28-edge-ai-on-device-ai-and-efficient-deployment/28-02-model-export-and-interoperability",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "28.3",
+      "title": "Mobile & Embedded AI",
+      "module": 28,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/28-edge-ai-on-device-ai-and-efficient-deployment/28-03-mobile-and-embedded-ai",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "28.4",
+      "title": "Local AI Systems",
+      "module": 28,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/28-edge-ai-on-device-ai-and-efficient-deployment/28-04-local-ai-systems",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "28.5",
+      "title": "Edge Optimization",
+      "module": 28,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/28-edge-ai-on-device-ai-and-efficient-deployment/28-05-edge-optimization",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "29.1",
+      "title": "Reinforcement Learning",
+      "module": 29,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/29-reinforcement-learning-robotics-and-embodied-ai/29-01-reinforcement-learning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "29.2",
+      "title": "Model-Based Learning",
+      "module": 29,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/29-reinforcement-learning-robotics-and-embodied-ai/29-02-model-based-learning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "29.3",
+      "title": "Robotics AI",
+      "module": 29,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/29-reinforcement-learning-robotics-and-embodied-ai/29-03-robotics-ai",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "29.4",
+      "title": "Vision-Language-Action Models",
+      "module": 29,
+      "part": 7,
+      "path": "knowledge/07-advanced-ai-specializations/29-reinforcement-learning-robotics-and-embodied-ai/29-04-vision-language-action-models",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "30.1",
+      "title": "Advanced LLM Architectures",
+      "module": 30,
+      "part": 8,
+      "path": "knowledge/08-frontier-topics-and-ai-research-literacy/30-advanced-and-emerging-topics-in-2026/30-01-advanced-llm-architectures",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "30.2",
+      "title": "Test-Time Compute & Reasoning",
+      "module": 30,
+      "part": 8,
+      "path": "knowledge/08-frontier-topics-and-ai-research-literacy/30-advanced-and-emerging-topics-in-2026/30-02-test-time-compute-and-reasoning",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "30.3",
+      "title": "Advanced Inference Research",
+      "module": 30,
+      "part": 8,
+      "path": "knowledge/08-frontier-topics-and-ai-research-literacy/30-advanced-and-emerging-topics-in-2026/30-03-advanced-inference-research",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "30.4",
+      "title": "Ultra-Low-Bit Models",
+      "module": 30,
+      "part": 8,
+      "path": "knowledge/08-frontier-topics-and-ai-research-literacy/30-advanced-and-emerging-topics-in-2026/30-04-ultra-low-bit-models",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "30.5",
+      "title": "Advanced Post-Training",
+      "module": 30,
+      "part": 8,
+      "path": "knowledge/08-frontier-topics-and-ai-research-literacy/30-advanced-and-emerging-topics-in-2026/30-05-advanced-post-training",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "30.6",
+      "title": "Next-Generation Agent Systems",
+      "module": 30,
+      "part": 8,
+      "path": "knowledge/08-frontier-topics-and-ai-research-literacy/30-advanced-and-emerging-topics-in-2026/30-06-next-generation-agent-systems",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "30.7",
+      "title": "Advanced Generative Modeling",
+      "module": 30,
+      "part": 8,
+      "path": "knowledge/08-frontier-topics-and-ai-research-literacy/30-advanced-and-emerging-topics-in-2026/30-07-advanced-generative-modeling",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "30.8",
+      "title": "Research Skills",
+      "module": 30,
+      "part": 8,
+      "path": "knowledge/08-frontier-topics-and-ai-research-literacy/30-advanced-and-emerging-topics-in-2026/30-08-research-skills",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "30.9",
+      "title": "AI Research Reproducibility",
+      "module": 30,
+      "part": 8,
+      "path": "knowledge/08-frontier-topics-and-ai-research-literacy/30-advanced-and-emerging-topics-in-2026/30-09-ai-research-reproducibility",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "31.1",
+      "title": "Problem Formulation",
+      "module": 31,
+      "part": 9,
+      "path": "knowledge/09-engineering-judgment-and-business-skills/31-problem-solving-system-ownership-and-product-thinking/31-01-problem-formulation",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "31.2",
+      "title": "Model Selection",
+      "module": 31,
+      "part": 9,
+      "path": "knowledge/09-engineering-judgment-and-business-skills/31-problem-solving-system-ownership-and-product-thinking/31-02-model-selection",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "31.3",
+      "title": "AI System Trade-Offs",
+      "module": 31,
+      "part": 9,
+      "path": "knowledge/09-engineering-judgment-and-business-skills/31-problem-solving-system-ownership-and-product-thinking/31-03-ai-system-trade-offs",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "31.4",
+      "title": "Experiment & Decision Discipline",
+      "module": 31,
+      "part": 9,
+      "path": "knowledge/09-engineering-judgment-and-business-skills/31-problem-solving-system-ownership-and-product-thinking/31-04-experiment-and-decision-discipline",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "31.5",
+      "title": "Production Ownership",
+      "module": 31,
+      "part": 9,
+      "path": "knowledge/09-engineering-judgment-and-business-skills/31-problem-solving-system-ownership-and-product-thinking/31-05-production-ownership",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "31.6",
+      "title": "Team Engineering",
+      "module": 31,
+      "part": 9,
+      "path": "knowledge/09-engineering-judgment-and-business-skills/31-problem-solving-system-ownership-and-product-thinking/31-06-team-engineering",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "31.7",
+      "title": "Business & Cost Awareness",
+      "module": 31,
+      "part": 9,
+      "path": "knowledge/09-engineering-judgment-and-business-skills/31-problem-solving-system-ownership-and-product-thinking/31-07-business-and-cost-awareness",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    },
+    {
+      "id": "31.8",
+      "title": "Technical Communication",
+      "module": 31,
+      "part": 9,
+      "path": "knowledge/09-engineering-judgment-and-business-skills/31-problem-solving-system-ownership-and-product-thinking/31-08-technical-communication",
+      "source": "curriculum/ROADMAP_SOURCE.md"
+    }
+  ]
+}
