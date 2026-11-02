@@ -50,3 +50,14 @@ _Chưa được kiểm chứng theo chuẩn L3 độc lập._ Hai notebook bên 
 
 - Nội dung/bằng chứng: [Tensor Fundamentals for LLM](notes/01-tensor-fundamentals-for-llm.md).
 - Python 3 + PyTorch 2.x; ví dụ nhỏ chạy CPU. Xem links đến tài liệu PyTorch chính thức trong note.
+
+## Career Guide V2 cross-reference (not a mastery update)
+
+**Active V2 Phase 1**: learn MatMul, Transpose, Dot/Inner Product and tensor shapes *through Q/K/V, attention scoring and masking* before expanding to distant linear-algebra proofs. Phase 2 later revisits math for gradients and backprop; Phase 9 revisits rank/SVD for LoRA and compression.
+
+- [Full V2 learning path](../../../../curriculum/LEARNING_PATH_V2.md)
+- [Math → LLM application map](../../../../curriculum/MATH_TO_LLM_MAP.md)
+- [Current next exercises](../../../../progress/ACTIVE_PATH.md)
+- [Foundation project (planned, not completed)](../../../../projects/00-attention-and-mini-transformer/README.md)
+
+**Historical evidence remains unchanged:** Tensor Fundamentals L2 90% covers a sub-scope; the full module is still unassessed and L3 has not been certified.
