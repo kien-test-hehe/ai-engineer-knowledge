@@ -1,12 +1,14 @@
-# Quy trình quản lý kiến thức
+# Workflow — V2 Context-Driven, Evidence-First
 
-1. Chọn topic theo ID trong `indexes/topics.json`.
-2. Đọc đúng thư mục topic + dependencies, không tải toàn bộ repo vào context.
-3. Học và kiểm chứng trước khi lưu tài liệu.
-4. Viết nội dung mới trên branch riêng, tạo Pull Request (PR) để người học xem diff.
-5. Không merge vào `main` khi người học chưa đồng ý.
-6. Chỉ nâng `mastery` sau khi có bài kiểm tra/chứng cứ rõ ràng; không tự nâng vì AI đã giảng.
-7. Sau khi notebook được thêm, cập nhật `notebooks/README.md` và lưu outputs đã chạy, không commit dữ liệu nhạy cảm.
-8. Khi kiến thức thay đổi theo phiên bản công cụ, giữ nguồn, version, điều kiện benchmark và thay đổi có kiểm chứng.
+1. **Choose next task from [ACTIVE_PATH](../progress/ACTIVE_PATH.md)** and [V2 learning path](../curriculum/LEARNING_PATH_V2.md), not blindly by alphabetical/original roadmap order.
+2. **Resolve the source topic ID** using [PHASE_INDEX](../indexes/PHASE_INDEX.md) → [ROADMAP_INDEX](../indexes/ROADMAP_INDEX.md) → the existing knowledge topic. Keep all original IDs/folders stable.
+3. For each concept, ask: **where in an LLM/AI system is this used, why, what are the shapes/assumptions, how to implement, what can fail?**
+4. Make a small working lab or notebook. Use tests, baseline and failure cases. Avoid repetitive mathematics once the core point is demonstrably understood.
+5. Review with the four-part 100-point rubric (>=75 and each criterion >=12), plus project acceptance tests. Keep L2 conceptual evidence separate from L3 independent build/debug evidence.
+6. Record only **observed** results in [assessments.jsonl](../progress/assessments.jsonl). Never invent scores, practical completion or benchmarks. Keep deep-dive backlog for math that is not an immediate dependency.
+7. **Work in a branch and PR.** Knowledge/career changes require learner review before merge. Never push directly to main absent explicit authorization.
+8. Preserve historical artifacts and the original roadmap as archival reference. A scaffold README is not completed knowledge content.
+9. Follow [notebook requirements](NOTEBOOKS.md); store safe, real outputs, hardware/version/seeds for benchmarks, and link the registry. Do not commit credentials or sensitive data.
+10. Prefer current official technical docs for changing APIs, then validate locally; label unverified assumptions and tool/version constraints.
 
-**Những gì được tạo trong commit scaffold:** thư mục, mục lục, mục tiêu syllabus, template và registry; **không phải** ghi chú chuyên môn đã được duyệt.
+**Shortcut:** Big Picture → Why → Relevant Math → Build → Debug → Evaluate → Revisit.
