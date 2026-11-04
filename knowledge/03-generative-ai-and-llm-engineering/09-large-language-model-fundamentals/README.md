@@ -18,3 +18,7 @@ target_practical: L3
 - [9.7. LLM Failure Modes](./09-07-llm-failure-modes/README.md)
 
 Nguồn: [Roadmap](../../../curriculum/ROADMAP_SOURCE.md).
+
+## V2 LLM Fundamentals diagnostic — Round 1
+
+[2026-11-04 diagnostic record](../../../progress/diagnostics/2026-11-04-llm-inference-round1.md): provisional 63/100 across Transformer/GQA, prefill/decode/KV cache, memory math and production serving reasoning. This is **not** a certified module-wide L2 result; **module mastery and L3 remain unassessed**. Target micro-remediation: learned Q/K/V projections, GQA head sharing, exact KV bytes formula and production latency metrics.

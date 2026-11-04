@@ -30,3 +30,10 @@
 - [Attention shape reasoning](../knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-01-linear-algebra/notebooks/02-attention-shape-reasoning.ipynb)
 
 Any new assessment must include clearly specified hypotheses, scope, rubrics and measured evidence; no invented output or mastery.
+
+## Update — 2026-11-04: LLM Fundamentals Round 1
+
+- [Diagnostic report](diagnostics/2026-11-04-llm-inference-round1.md): preliminary **63/100**, **not a formal L2 PASS**, L3 unassessed.
+- Strengths: inference flow, GQA head ratio/shapes, KV Cache purpose, quantization skepticism.
+- **Immediate micro-remediation (before Round 2):** Q/K/V are independent learned projections from hidden states (NOT generated from grouped query heads); 512 MiB vs 1GiB KV memory with correct factors; prefill O(n²) attention even with cache; queue/TTFT/TPOT metrics before optimization.
+- Next: short transfer check, then LLM training/SFT/LoRA diagnostic. Do not mark module 9 as mastered.

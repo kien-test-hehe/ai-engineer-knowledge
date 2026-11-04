@@ -1,6 +1,6 @@
 # LLM Fundamentals — upcoming diagnostic plan (V2 Phase 4/5/9)
 
-**Status:** PLANNED; no questions graded, no mastery promoted as of 2026-11-04.  
+**Status:** Round 1 evaluated provisionally (63/100 on 2026-11-04); full LLM L2 is not certified and L3 remains unassessed.  
 **Purpose:** Calibrate actual knowledge before deciding which earlier learning modules can be shortened. Adapt difficulty to prior working experience. **Do not** force beginner-level definitions after strong evidence.
 
 ## Focus and source mapping
@@ -23,3 +23,10 @@
 ## Scoring integrity
 
 Record transparent per-round qualitative/quantitative feedback, then apply a separately agreed L2 rubric with a consistent, valid question set. **Do not treat open-ended conversation or a topic-coverage estimate as V2 certified Core or L3.** Preserve all user evidence, assumptions and untested capabilities.
+
+## Round 1 observed result (2026-11-04)
+
+- [Detailed technical feedback and calculation corrections](diagnostics/2026-11-04-llm-inference-round1.md).
+- Conceptual positives: GQA head ratio/shapes, high-level inference pipeline, cache reuse.
+- Priority gaps: Q/K/V projections and GQA sharing, exact KV Cache formula, prefill complexity, inference latency instrumentation.
+- Next: concise transfer check on two corrections before the planned Round 2 training/fine-tuning discussion; score future rounds separately rather than averaging incompatible rubrics.
