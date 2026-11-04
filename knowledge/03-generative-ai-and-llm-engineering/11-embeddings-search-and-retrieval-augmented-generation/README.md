@@ -20,3 +20,9 @@ target_practical: L3
 - [11.9. Production RAG](./11-09-production-rag/README.md)
 
 Nguồn: [Roadmap](../../../curriculum/ROADMAP_SOURCE.md).
+
+## Career Guide V2 — diagnostic evidence (not full module mastery)
+
+A three-round conversational RAG diagnostic was recorded on **2026-11-04**: [full report](../../../progress/diagnostics/2026-11-04-rag-l2-diagnostic.md). Strengths include architecture decomposition, dense vs sparse retrieval, distractor/position hypotheses and skepticism of unsupported model changes. Priorities: controlled experiments, reliable evaluation, stage latency tracing and model selection evidence.
+
+**Status unchanged:** whole module **unassessed**, L3 **unassessed**. Provisional scores from different rubrics (68/77/65) are not a formal full-module L2 PASS.

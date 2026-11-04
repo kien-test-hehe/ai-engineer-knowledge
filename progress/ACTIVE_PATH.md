@@ -1,35 +1,32 @@
-# Active learning path — proposed next steps
+# Active learning path — Competency-driven V2
 
-**Updated:** 2026-11-02 · **Recommended next emphasis:** Phase 1 → Phase 2 → Phase 4, with Phase 0 engineering practice continuous.
+**Updated:** 2026-11-04. Learning order is flexible according to evidence. Do not blindly require Phase 0→11 serially.
 
-## Existing evidence (do not overinterpret)
+## Known observations
 
-- **Completed L2 sub-scope:** Tensor Fundamentals for LLM, 2026-10-21, 54/60 = 90%, 12 questions, original assessment rubric. [Record](assessments.jsonl).
-- **Not certified:** whole Linear Algebra module; full L3 implementation; mathematical rank/basis/determinant/eigen/SVD; other phases.
-- **Already available for practice:** [Tensor shapes notebook](../knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-01-linear-algebra/notebooks/01-tensor-shapes-and-memory.ipynb) and [Attention shape notebook](../knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-01-linear-algebra/notebooks/02-attention-shape-reasoning.ipynb). These are study resources, not proof of independent completion.
+- **Tensor Fundamentals for LLM (subscope 1.1):** L2 PASS, 54/60=90%, 2026-10-21; see [record](assessments.jsonl).
+- **RAG conversational diagnostic:** 3 rounds with provisional scores 68, 77, 65 and qualitative synthesis showing substantial conceptual/architecture knowledge. **No formal overall RAG L2 PASS; L3 unassessed.** See [report](diagnostics/2026-11-04-rag-l2-diagnostic.md).
+- **Work experience reported:** more than one year of AI-related practical work. This is contextual input for interview difficulty, **not evidence that a specific untested competency is passed**.
+- **Unknown:** full implementation strength, production benchmark validity, Transformer internals training/inference depth and remaining modules.
 
-## Suggested immediate sequence
+## NEXT: Calibrate before prescribing basic coursework
 
-| Step | Study/experiment | Check before moving on |
-|---|---|---|
-| 1 | MatMul, transpose, dot/inner product tied to Q/K/V projections | Explain the operation/shape, solve a novel shape question |
-| 2 | Embedding similarity with dot vs cosine | Code outputs agree with intuition/tests |
-| 3 | Scaled dot-product attention: QKᵀ, divide sqrt(d_k), softmax over key axis, @V | Forward implementation and shape tests |
-| 4 | Causal mask; masked future positions; test no future leakage | Correct mask, probabilities and edge cases |
-| 5 | Batched multi-head attention; contrast encoder/decoder/self/cross attention | Independent shape reasoning and debugging |
-| 6 | Targeted Phase 1 checkpoint (75/100 + >=12 per criterion) | Record **actual** assessment before upgrading mastery |
-| 7 | Chain rule, a tiny manual gradient and PyTorch autograd verification | Manual ≈ autograd, train/debug a tiny MLP |
-| 8 | Continue mini decoder-only Transformer | Training and inference distinction, source-specific tests |
+1. **LLM Fundamentals L2 diagnostic** — start with a concrete decoder-only inference case; follow with training/LoRA and engineering decision cases. [Diagnostic plan](LLM_DIAGNOSTIC_PLAN.md).
+2. **Then calibrate NLP** as needed; avoid elementary definitions if already demonstrably understood.
+3. **Targeted RAG learning:** golden datasets, per-stage retrieval/generation metrics, paired tests, distractor and positional controls, root-cause tracing, end-to-end quality/latency/cost trade-offs.
+4. **Independent RAG implementation challenge:** compare exact conditions with code, real measured outputs and acceptance tests to establish L3; do **not** mark it complete yet.
+5. **Math-in-context track stays active in parallel:** Q/K/V projections → scaled dot-product attention → causal masking → autograd/gradient debugging → small decoder-only Transformer. See [math map](../curriculum/MATH_TO_LLM_MAP.md).
 
-## Deep-dive backlog (not blocking attention)
+## Prioritized learning policy
 
-Determinant proofs, high-dimensional manual matmul repetitions, full eigen/SVD derivations, positive semidefinite theory, detailed Jacobian/Hessian derivations. Revisit these with PCA, LoRA, numerical optimization or model research as appropriate.
+- **Already demonstrated conceptual competence:** use a fast checkpoint instead of rerunning long introductory modules.
+- **Partial/uncertain:** targeted experiments and active recall, then checkpoint.
+- **Untested implementation:** L3 unassessed until runnable independent evidence.
+- **Math deeper than immediate model use:** record in backlog (e.g., determinant proofs, detailed eigendecomposition/SVD, Hessians) and revisit for LoRA/PCA or specific engineering needs.
 
-## Evidence to collect next (currently NOT recorded)
+## Available early-phase notebooks (resources, not certification)
 
-- New attention lab/notebook with real executed output and tests.
-- A self-explained shape/mask/debug assessment.
-- Explicit evidence for L3 independent implementation.
-- A concise write-up: why the math matters in the actual LLM block.
+- [Tensor shapes & memory](../knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-01-linear-algebra/notebooks/01-tensor-shapes-and-memory.ipynb)
+- [Attention shape reasoning](../knowledge/01-foundations/01-mathematics-for-ai-and-machine-learning/01-01-linear-algebra/notebooks/02-attention-shape-reasoning.ipynb)
 
-This file is a **study proposal**, not a task-completion claim.
+Any new assessment must include clearly specified hypotheses, scope, rubrics and measured evidence; no invented output or mastery.
